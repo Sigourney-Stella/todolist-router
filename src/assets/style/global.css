@@ -1,0 +1,124 @@
+:root {
+  --font-color: #ffffff;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+html {
+  background: linear-gradient(
+    180deg,
+    #2ebf91 0%,
+    rgba(131, 96, 195, 0.31) 100%
+  );
+  background-repeat: no-repeat;
+}
+
+body {
+  height: 100%;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+.header {
+  font-size: 40px;
+  color: var(--font-color);
+  font-weight: 200;
+  font-family: "Times New Roman";
+}
+
+.card-box-title {
+  font-size: 25px;
+  color: var(--font-color);
+  font-family: "Times New Roman";
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+#todo-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-box {
+  box-sizing: border-box;
+  height: 120px;
+  width: 500px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25),
+    0px 4px 40px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  margin-bottom: 10px;
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  padding: 0 30px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: rgba(76, 207, 169, 0.92);
+  cursor: pointer;
+  border: none;
+}
+
+button.btn-delete {
+  background: rgba(244, 121, 31, 0.92);
+}
+
+button span {
+  color: var(--font-color);
+}
+
+/* .el-input {
+  width: 60% !important;
+} */
+
+/* .el-input__inner {
+  border-radius: 40px !important;
+  height: 100% !important;
+  border: 1px solid #91BEC5 !important;
+} */
+
+.card-box-wrapper {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  margin-right: 20px;
+}
+
+/* .el-input__inner::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.el-input.is-disabled .el-input__inner {
+  background-color: #A8A8A8 !important;
+  border: 1px solid #91BEC5 !important;
+}
+
+.el-input.is-disabled input::placeholder {
+  color: rgba(0, 0, 0, 0.98) !important;
+} */
+
+.card-box-btn button {
+  transition: transform 0.5 ease;
+}
+
+.card-box-btn button:hover {
+  transform: scale(1.1);
+}
+
+.card-box-btn button span {
+  font-size: 2rem;
+}
