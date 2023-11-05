@@ -6,19 +6,21 @@
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
-html {
-  background: linear-gradient(
-    180deg,
-    #2ebf91 0%,
-    rgba(131, 96, 195, 0.31) 100%
-  );
-  background-repeat: no-repeat;
-}
+/* html {
+  background-image: url(./anh5.jpg);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+} */
 
 body {
+  /* background-image: url(./anh5.jpg); */
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
   height: 100%;
   min-height: 100vh;
   font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
 }
 
 .header {
@@ -53,8 +55,8 @@ body {
     rgba(255, 255, 255, 0.4) 0%,
     rgba(255, 255, 255, 0.1) 100%
   );
-  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25),
-    0px 4px 40px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25),
+    0px 4px 40px rgba(0, 0, 0, 0.25); */
   border-radius: 40px;
   margin-bottom: 10px;
   display: flex;
@@ -67,7 +69,7 @@ button {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  background: rgba(76, 207, 169, 0.92);
+  /* background: rgba(76, 207, 169, 0.92); */
   cursor: pointer;
   border: none;
 }
